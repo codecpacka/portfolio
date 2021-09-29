@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="css/home.css" />
+  <script src="https://kit.fontawesome.com/72ae7c93ca.js" crossorigin="anonymous"></script>
+</head>
+<style>
+ 
+</style>
+
+<body>
+  <div class="box">
+    <div>Contact me</div>
+    <div>500 Terry Francois St. San Francisco, CA 94158</div>
+    <div>info@mysite.com Tel: 123-456-7890</div>
+    <div id="social" class="aligncenter">
+      <i class="fab fa-facebook fa-lg"></i>
+      <i class="fab fa-twitter fa-lg"></i>
+      <i class="fab fa-instagram fa-lg"></i>
+      <i class="fas fa-envelope fa-lg"></i>
+    </div>
+    <form action="/users" method="post">
+      <div style="">
+        <div>
+          <label for="username">Name</label>
+          <input id="user_first_name" name="user[first_name]" size="30" type="text" />
+
+          <label for="name">Enter your e-mail</label>
+          <input id="user_last_name" name="user[last_name]" size="30" type="email" />
+        </div>
+        <div>
+          <label for="subject">Suject</label>
+          <input type="textarea" name="" id="" size="100">
+        </div>
+        <div>
+          <label for="subject">Enter your message</label>
+          <input type="textarea" name="message" id="subject">
+        </div>
+        <input type="submit" value="Submit">
+      </div>
+</body>
+
+</html>

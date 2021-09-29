@@ -1,0 +1,56 @@
+
+.maincont {
+  display: grid;
+  justify-content: center;
+  background-color: burlywood;
+
+  /* grid-template-columns: 20% 60% 20%; */
+}
+
+/* .maincont > div {
+  width: 635px;
+} */
+
+.container {
+  background-color: white;
+  height: 335px;
+  width: 635px;
+  display: grid;
+  grid-template-columns: 8px 1fr 1fr;
+  grid-template-rows: 68px 50px 1fr 1fr;
+  column-gap: 0.7em;
+}
+
+.ribbon {
+  grid-row: 1 / span 2;
+  background-color: black;
+  height: 47px;
+  align-self: center;
+}
+.title {
+  align-self: end;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.desc {
+  grid-row: 1 / span 4;
+  grid-column: 3;
+  background-color: blue;
+}
+
+.desc > img {
+  width: auto;
+  height: auto;
+}
+.subdesc {
+  align-self: start;
+  height: 20px;
+}
+.pic {
+  grid-row: 3 / span 4;
+  grid-column: 2;
+}
+
+.experience > p {
+  text-align: center;
+}

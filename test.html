@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 60% 40%;
+      width:500px;
+      margin: 0 auto;
+      /* gap:1em; */
+    }
+    .wrapper > div {
+      padding-left: 10px;
+    }
+    img{
+        height: 314px;
+    width: 282px;
+    }
+    .box1 {
+      background-color: deeppink;
+      grid-auto-rows: minmax(10px,60px);
+      
+      border-left: 10px solid black;
+    }
+    .box2 {
+      background-color: darkturquoise;
+      
+      grid-column: 2;
+      grid-row: 1/4;
+    }
+    .box3 {
+      background-color: darkgoldenrod;
+      border-left: 10px solid black;
+    }
+    .box4 {
+      background-color: chartreuse;
+      border-left: 10px solid #00000000;
+      grid-column:1;
+      grid-row:3/4;
+    }
+  </style>
+  <body >
+    <div class="wrapper">
+      <div class="box1">ram</div>
+      <div class="box2"><img src="images/project/1.jpg" alt=""></div>
+      <div class="box3">sarkar</div>
+      <div class="box4">codec</div>
+    </div>
+  </body>
+</html>
