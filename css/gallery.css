@@ -34,3 +34,15 @@
     max-width:500px;
     cursor: pointer;
 }
+.galtitle{
+     
+    font-size: 3.5em;
+    font-weight: bold;
+    color: rgb(239 131 131);
+    margin: 24px 0px;
+    margin-left: 3em;
+    border-bottom: 2px solid;
+    
+    
+    
+}

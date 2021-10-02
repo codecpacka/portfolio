@@ -1,110 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My World</title>
-    <script src="https://kit.fontawesome.com/72ae7c93ca.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/home.css" />
-    
-  </head>
-  <body>
 
-    
-    
-      <nav class="navbar">
-        <ul>
-          <li>
-            <a class="brand" href="index.html">Bio</a>
-          </li>
-          <li>
-            <a href="education.html">Education</a>
-          </li>
-          <li>
-           <a class="active" href="achievement.html">Achievement</a>
-          </li>
-          <li>
-            <a href="skills.html">Skills</a>
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="hobbies.html">Hobbies</a>
-          </li>
-          <li>
-            <a href="contact.html">Contact me</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="indexcontainer">
-        <div class="left">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My World</title>
+  <script src="https://kit.fontawesome.com/72ae7c93ca.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/home.css" />
 
-          <div class="socialbar">
-            <i class="fab fa-facebook  fa-xs"></i>
-      <i class="fab fa-twitter fa-xs  "></i>
-      <i class="fab fa-instagram fa-xs "></i>
-      <i class="fas fa-envelope  fa-xs"></i>
-      <i class="fa-solid fa-bat fa-xs"></i>
-      
-          </div>
-          <div class="Headingb center">Contact me</div>
-          <div class="contform">
-            
-            
-            
-            Enter your Name
-            <input
-                type="text"
-                placeholder="Enter Username"
-                id="name"
-                class="tb"
-              />
-              <br>
+</head>
 
-              Enter mail Addres:
-            
-              <input
-              type="text"
-              placeholder="Enter email address here"
-              id="mail"
-              class="tb"
-            />
-            <br>
-         Description:
-           
-           
+<body>
 
-           <textarea id="description" name="Description" rows="4" cols="50">
+
+<!-- navbar -->
+  <nav class="navbar">
+    <ul>
+      <li>
+        <a class="brand" href="index.html">Bio</a>
+      </li>
+      <li>
+        <a href="education.html">Education</a>
+      </li>
+      <li>
+        <a class="active" href="achievement.html">Achievement</a>
+      </li>
+      <li>
+        <a href="skills.html">Skills</a>
+      </li>
+      <li>
+        <a href="gallery.html">Gallery</a>
+      </li>
+      <li>
+        <a href="hobbies.html">Hobbies</a>
+      </li>
+      <li>
+        <a href="contact.html">Contact me</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- title -->
+  <div class="contitle bebas">Hey!</div>
+
+  <!-- main container containg all the items -->
+  <div class="indexcontainer">
+    <!-- form page -->
+    <div class="left">
+
+      <div class="socialbar">
+        <i class="fab fa-facebook  fa-xs"></i>
+        <i class="fab fa-twitter fa-xs  "></i>
+        <i class="fab fa-instagram fa-xs "></i>
+        <i class="fas fa-envelope  fa-xs"></i>
+      </div>
+      <div class="center lato">Contact me</div>
+      <div class="contform">
+        Enter your Name
+        <input type="text" placeholder="Enter Username" id="name" class="tb" />
+        <br>
+
+        Enter mail Addres:
+
+        <input type="text" placeholder="Enter email address here" id="mail" class="tb" />
+        <br>
+        Description:
+      <textarea id="description" name="Description" rows="4" cols="50">
            How is my Portfolio
            </textarea>
-
-
-            
-
-            
-          
-          
-          
-          
-          </div>
-          <div id="button">
-            
-    
-              <button id="btn1"  onclick="validate()">Submit</button>
-            
-       
-    
-              <button id="btn2" onclick="clear()">Reset</button>
-           
-            </div>
-        </div>
-        <div class="right">
-          <img src="images/male.jpg" alt="maleimage" id="model" />
-        </div>
+      </div>
+      <div id="button">
+        <button id="btn1" onclick="validate()">Submit</button>
+        <button id="btn2" onclick="clear()">Reset</button>
       </div>
     </div>
-    <script src="scripts/contact.js"></script>
-  </body>
+    <!-- contains image -->
+    <div class="right">
+      <img src="images/male.jpg" alt="maleimage" id="model" />
+    </div>
+  </div>
+  </div>
+  <script src="scripts/contact.js"></script>
+  <footer>
+
+    <div class="footer">
+
+      <div class="info">
+        <div class="infobox headingb fistword">WINGS OF
+          <span class="fire">
+            Fire
+          </span>
+        </div>
+        <div class="">meyonese@123 <br>
+          www.example34@er.com <br>
+          036-6589752
+        </div>
+
+      </div>
+      <div class="socialfooter footerend">
+        <div id="social" class="aligncenter ">
+          <i class="fab fa-facebook  fa-lg"></i>
+
+          <i class="fab fa-twitter fa-lg  "></i>
+          <i class="fab fa-instagram fa-lg "></i>
+          <i class="fas fa-envelope  fa-lg"></i>
+          <i class="fa-solid fa-bat fa-lg"></i>
+          <i class="fa-solid fa-sailboat fa-lg"></i>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
